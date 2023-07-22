@@ -4,12 +4,12 @@
         stage('Build') {
 	        steps {
 		        echo "This is the Build stage"
-	        }
-	      }
+	      	      }
+	      	   }
 	    stage ('Test') {
-      	steps {
-			      echo "This is the Build stage"
-	        }
-	      }
+      		steps {
+		      echo "This is the Build stage"
+	       	      }
+	      	}
      }
 }
